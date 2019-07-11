@@ -40,6 +40,7 @@
         .header { height: 50px; width: 100%; display: table; background-color: #fff; }
         .header img { width: 25px; position: relative; left: 20px; }
 				.header a { text-decoration: none; }
+				#keyword { width: 80%; }
         h1 { font-size: 30px; font-weight: bold; color: #262626; opacity: 0.9; text-shadow: none; }
         h2 { font-size: 36px; font-weight: normal; color: #262626; opacity: 0.8; }
         h3 { font-size: 20px; font-weight: bolder;; margin-bottom: 0; margin-top: 0; color: #262626; opacity: 0.8; }
@@ -60,7 +61,7 @@
         .version h4 { font-weight: bold; margin-bottom: 0; margin-top: 0px; opacity: 1; font-size: 17px; }
         .version h5 { font-weight: normal; margin-bottom: 0; margin-top: 0; }
         .versions h2 { text-align: left; opacity: .8; font-size: 20px; font-weight: bold; text-transform: uppercase; margin-bottom: 30px; }
-    </style>
+		</style>
 
 </head>
 <body>
@@ -70,10 +71,24 @@
 	<script src="assets/js/custom.js"></script>
 
 
+	<!-- 제이쿼리 최신 -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<!-- 검색기능 -->
+	<script src="assets/js/search.js"></script>
+
+
 		<section class="header">
+
 			<a href="http://koreanvideolinks.com"><h6>KOREANVIDEOLINKS</h6></a>
 			</br>
 			<a href="http://koreanvideolinks.com/entertain.html"><h3>Entertain</h3></a>
+			<br><br>
+
+			<div id="input-form">
+        <input type="text" id="keyword" placeholder="제목 검색"/>
+      </div>
+
 		</section>
 
     <section class="versions">
