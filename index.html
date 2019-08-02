@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 
+	<!-- www -->
+	<script>
+	var host = location.host.toLowerCase();
+	var currentAddress = location.href;
+	if (host.indexOf("www")== -1) { currentAddress = currentAddress.replace("//","//www.");
+	location.href = currentAddress; }
+	</script>
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143527090-1"></script>
 	<script>
@@ -20,14 +28,6 @@
 	    enable_page_level_ads: true
 	  });
 	</script>
-
-	<!-- www -->
-	<!-- <script>
-	var host = location.host.toLowerCase();
-	var currentAddress = location.href;
-	if (host.indexOf("www")== -1) { currentAddress = currentAddress.replace("//","//www.");
-	location.href = currentAddress; }
-	</script> -->
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
