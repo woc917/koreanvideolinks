@@ -19,8 +19,8 @@ section { color: #fff; padding-top: 40px; padding-bottom: 40px; text-align: cent
 .versions { color: #262626; }
 .versions h1 { font-weight: normal; margin-top: 60px; margin-bottom: 20px; text-shadow: none; }
 .versions h3 { opacity: .7; margin-bottom: 80px; }
-.version { background-color: #fff; transition: .5s ease; box-shadow: 0px 2px 20px 0px rgba(0,0,0,.1); transform: translateY(0px); margin-bottom: 40px; border: 15px solid #fff; border-radius: 5px; opacity: 0.9; }
-.version:hover { box-shadow: 0px 10px 20px 0px rgba(0,0,0,.5); }
+.version { background-color: #fff; transition: .1s ease; box-shadow: 0px 2px 20px 0px rgba(0,0,0,.1); transform: translateY(0px); margin-bottom: 40px; border: 15px solid #fff; border-radius: 5px; opacity: 0.9; }
+.version:hover { box-shadow: 0px 10px 20px 0px rgba(0,0,0,.3); }
 @media (min-width: 800px) { .version { height: 275px; } }
 @media (max-width: 1000px) { .version { height: 310px; } }
 .version img { max-width: 100%; }
