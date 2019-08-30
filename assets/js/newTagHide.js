@@ -1,5 +1,5 @@
 $(document).ready(function(){
 
-  // $('.new290819').hide();
+  $('.new290819').hide();
 
 });
