@@ -40,7 +40,7 @@ section { color: #fff; padding-top: 40px; padding-bottom: 40px; text-align: cent
 .tabBar div:hover { cursor: pointer; transition: .5s ease; transform: translateY(-3px); opacity: 1; }
 figure > div:nth-of-type(2) { font-size: 11px; background: red; border-radius: 20px; color: #fff; display: inline; padding: 1.5%; padding-left: 4%;  padding-right: 4%; opacity: 0.9; }
 @media (min-width: 900px) { figure > div:nth-of-type(2) { padding: 2%; padding-left: 5%;  padding-right: 5%; border-radius: 2px; } }
-.ol { font-size: 10px; }
-.link2, .link3, .link4, .link5 { font-size: 9px; width: 70px; width: 22%; float: left; color: #fff; background: #1465C0; padding: 1.5%; margin: 1.5%; border-radius: 2px; opacity: 0.8; }
-.link2:hover, .link3:hover, .link4:hover, .link5:hover { opacity: 1; }
+/* .link2, .link3, .link4, .link5 { font-size: 9px; width: 70px; width: 22%; float: left; color: #fff; background: #1465C0; padding: 1.5%; margin: 1.5%; border-radius: 2px; opacity: 0.8; } */
+.link2, .link3, .link4 { font-size: 10px; width: 70px; width: 30%; float: left; color: #000; background: #fff; padding: 1.5%; margin: 1.5%; border-radius: 2px; opacity: 0.7; border: 2px solid silver; }
+.link2:hover, .link3:hover, .link4:hover { opacity: 1; box-shadow: 0px 1px 1px 0px rgba(0,0,0,.1); }
 @media (max-width: 800px) { .version { height: 520px; } .space2 { margin-bottom: 24px; } }
