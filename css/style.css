@@ -38,9 +38,23 @@ section { color: #fff; padding-top: 40px; padding-bottom: 40px; text-align: cent
 .tabBar:hover { opacity: 0.9; }
 .tabBar div { display: inline-block; width: 32.5%; height: 70px; padding-top: 2.5%; color: #000; font-weight: bold; opacity: 0.9; }
 .tabBar div:hover { cursor: pointer; transition: .5s ease; transform: translateY(-3px); opacity: 1; }
-figure > div:nth-of-type(2) { font-size: 11px; background: red; border-radius: 20px; color: #fff; display: inline; padding: 1.5%; padding-left: 4%;  padding-right: 4%; opacity: 0.9; }
+
+/* 뉴태그 */
+figure > div:nth-of-type(2) {
+  font-size: 11px;
+  background: red;
+  border-radius: 20px;
+  color: #fff;
+  display: inline;
+  padding: 1.5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  opacity: 0.9;
+}
+
 @media (min-width: 900px) { figure > div:nth-of-type(2) { padding: 2%; padding-left: 5%;  padding-right: 5%; border-radius: 2px; } }
 
+/* 하위 링크 버튼 */
 .link2, .link3, .link4 {
   font-size: 10px;
   width: 30%;
@@ -60,4 +74,25 @@ figure > div:nth-of-type(2) { font-size: 11px; background: red; border-radius: 2
   box-shadow: 0px 1px 2px 0px rgba(0,0,0,.4);
 }
 
-@media (max-width: 800px) { .version { height: 520px; } .space2 { margin-bottom: 24px; } }
+/* 모바일 화면, 넓이 800px 이하 일 때 */
+@media (max-width: 800px) {
+
+  .version {
+    height: 650px;
+  }
+
+  .space2 {
+    margin-bottom: 24px;
+  }
+
+  .link2, .link3, .link4 {
+    font-size: 10px;
+    width: 100%;
+    padding: 3%;
+    margin-left: 0;
+    margin-top: 1%;
+    font-size: 12px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,.4);
+  }
+
+}
