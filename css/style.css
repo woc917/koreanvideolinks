@@ -92,11 +92,20 @@ figure > div:nth-of-type(2) {
     margin-left: 0;
     margin-top: 1%;
     font-size: 12px;
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,.4);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,.2);
   }
 
   .link2:hover, .link3:hover, .link4:hover {
-    box-shadow: 0px 1px 5px 0px rgba(0,0,0,.5);
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,.3);
+  }
+
+  h5, h6 {
+    font-size: 17px;
   }
 
 }
+
+/* @font-face {
+	font-family: 'HelveticaCdBd';
+	src: url('../assets/fonts/HelveticaCdBd.ttf') format('truetype');
+} */
