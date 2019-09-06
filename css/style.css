@@ -7,8 +7,6 @@ h1 { font-size: 30px; font-weight: bold; color: #262626; opacity: 0.9; text-shad
 h2 { font-size: 36px; font-weight: normal; color: #262626; opacity: 0.8; }
 h3 { font-size: 26px; font-weight: bolder; margin-bottom: 0; margin-top: 0; color: #262626; opacity: 0.8; }
 h4 { font-size: 18px; font-weight: bolder; opacity: .7; color: #262626; opacity: 0.8; }
-/* h5 { font-size: 15px; font-weight: bolder; color: #262626; opacity: 0.8; font-family: 'Hi Melody', cursive; } */
-@font-face { font-family: 'BBTreeCL'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeCL.woff') format('woff'); font-weight: normal; font-style: normal; }
 h5 { font-size: 13px; font-weight: bolder; color: #262626; opacity: 0.8; }
 .header h6 { font-size: 15px; font-weight: normal; color: #5C9FAD; opacity: 0.8; font-family: 'Squada One', sans-serif; }
 h6 { font-size: 13px; font-weight: normal; color: #262626; opacity: 0.8; }
@@ -105,7 +103,7 @@ figure > div:nth-of-type(2) {
 
 }
 
-/* @font-face {
-	font-family: 'HelveticaCdBd';
-	src: url('../assets/fonts/HelveticaCdBd.ttf') format('truetype');
-} */
+:lang(zh) {font-family:LiHei Pro Medium, sans-serif}
+:lang(ko) {font-family:nanum gothic, sans-serif}
+:lang(ja) {font-family:osaka, sans-serif}
+:lang(en) {font-family:helvetica neue, sans-serif}
