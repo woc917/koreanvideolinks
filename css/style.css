@@ -80,15 +80,15 @@ figure > div:nth-of-type(2) {
     height: 610px;
 
     /* 추가한 내용 */
-    width: 44%;
+    /* width: 44%;
     float: left;
     margin-left: 5%;
-    height: 410px;
+    height: 410px; */
   }
 
-  .mobAd {
+  /* .mobAd {
     float: left;
-  }
+  } */
 
   .space2 {
     margin-bottom: 24px;
